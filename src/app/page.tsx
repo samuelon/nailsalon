@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -38,6 +38,7 @@ export default function Home() {
           priority
         />
       </div>
+      <div>yolo</div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
@@ -109,5 +110,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
